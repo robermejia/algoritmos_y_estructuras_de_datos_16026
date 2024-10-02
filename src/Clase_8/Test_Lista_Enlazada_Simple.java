@@ -65,6 +65,19 @@ public class Test_Lista_Enlazada_Simple {
         lista.recorrer(); // Recorre la lista y muestra los elementos
     */
     // ########################### ORDENAMIENTO LE ############################
+        ListaEnlazada lista = new ListaEnlazada(); // Crea una nueva lista enlazada
+        lista.insertarAlFinal(5); // Inserta un nodo al final con el valor 5
+        lista.insertarAlFinal(10); // Inserta un nodo al final con el valor 10
+        lista.insertarAlFinal(15); // Inserta un nodo al final con el valor 15
+        lista.insertarAlFinal(2); // Inserta un nodo al final con el valor 2
+
+        System.out.println("Elementos de la lista enlazada:");
+        lista.recorrer(); // Recorre la lista y muestra los elementos
+
+        lista.ordenarLista(); // Ordena la lista
+
+        System.out.println("Elementos de la lista enlazada después de ordenar:");
+        lista.recorrer(); // Recorre la lista y muestra los elementos
 
     }
 }

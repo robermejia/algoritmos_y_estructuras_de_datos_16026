@@ -44,5 +44,11 @@ class Nodo {
     }
     */
     // ########################### ORDENAMIENTO LE ############################
-    
+    int dato; // Almacena el valor del nodo
+    Nodo siguiente; // Apunta al siguiente nodo en la lista
+
+    public Nodo(int dato) {
+        this.dato = dato;
+        this.siguiente = null; // Inicialmente no apunta a ningún otro nodo
+    }
 }
