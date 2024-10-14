@@ -1,11 +1,12 @@
 package Clase_9_1;
+
 // Clase para la lista doblemente enlazada
 class ListaDoblementeEnlazada {
     Nodo head; // Nodo cabeza de la lista
     Nodo tail; // Nodo cola de la lista (nuevo puntero)
 
 
-// Método para insertar un nodo al final de la lista
+    // Método para insertar un nodo al final de la lista
     public void insertarAlFinal(int data) {
         Nodo nuevoNodo = new Nodo(data);
         if (head == null) { // Si la lista está vacía
@@ -18,7 +19,7 @@ class ListaDoblementeEnlazada {
         }
     }
 
-// Método para eliminar un nodo con un valor específico
+    // Método para eliminar un nodo con un valor específico
     public void eliminarNodo(int data) {
         if (head == null) return; // Si la lista está vacía, no hacer nada
 
@@ -49,7 +50,7 @@ class ListaDoblementeEnlazada {
         }
     }
     
-// Método para recorrer la lista de adelante hacia atrás
+    // Método para recorrer la lista de adelante hacia atrás
     public void recorrerHaciaAdelante() {
         Nodo temp = head;
         while (temp != null) {
@@ -59,7 +60,7 @@ class ListaDoblementeEnlazada {
         System.out.println();
     }
 
-// Método para recorrer la lista de atrás hacia adelante usando tail
+    // Método para recorrer la lista de atrás hacia adelante usando tail
     public void recorrerHaciaAtras() {
         Nodo temp = tail;
         while (temp != null) {

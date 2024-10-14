@@ -5,7 +5,6 @@ class ListaDoblementeEnlazada {
     Nodo head; // Nodo cabeza de la lista
     Nodo tail; // Nodo cola de la lista (nuevo puntero)
 
-    //------
 
     // Método para insertar un nodo al inicio de la lista
     public void insertarAlInicio(int data) {
@@ -20,7 +19,6 @@ class ListaDoblementeEnlazada {
             tail.next = head; // Actualizar el puntero del último nodo
         }
     }
-    //--
 
     // Método para insertar un nodo al final de la lista
     public void insertarAlFinal(int data) {
@@ -36,7 +34,7 @@ class ListaDoblementeEnlazada {
             tail.next = head; // Conectar el último nodo de nuevo al primero
         }
     }
-    //---
+    
 
     // Método para eliminar un nodo con un valor específico
     public void eliminarNodo(int data) {
@@ -57,7 +55,6 @@ class ListaDoblementeEnlazada {
             return;
         }
 
-        //------
 
         // Buscar el nodo a eliminar en la lista
         do {
@@ -73,7 +70,7 @@ class ListaDoblementeEnlazada {
             tail = prev;
         }
     }
-    //---------
+    
 
     // Método para recorrer la lista de adelante hacia atrás
     public void recorrerHaciaAdelante() {

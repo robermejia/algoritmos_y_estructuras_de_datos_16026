@@ -1,5 +1,6 @@
 package Clase_9_1;
-// lista doblemente enlazada normal
+
+// Lista doblemente enlazada normal
 public class Test {
     public static void main(String[] args) {
         ListaDoblementeEnlazada lista = new ListaDoblementeEnlazada();

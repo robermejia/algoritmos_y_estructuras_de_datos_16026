@@ -1,5 +1,6 @@
 package Clase_9_2;
-// lista doblemente enlazada circular
+
+// Lista doblemente enlazada circular
 public class Test {
     public static void main(String[] args) {
         ListaDoblementeEnlazada lista = new ListaDoblementeEnlazada();
