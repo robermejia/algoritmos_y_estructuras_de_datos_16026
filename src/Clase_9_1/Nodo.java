@@ -1,4 +1,4 @@
-package Clase_9;
+package Clase_9_1;
 // Clase Nodo para la lista doblemente enlazada
 class Nodo {
     int data; // Dato que contiene el nodo

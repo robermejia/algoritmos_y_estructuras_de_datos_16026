@@ -1,4 +1,4 @@
-package Clase_9;
+package Clase_9_1;
 // Clase para la lista doblemente enlazada
 class ListaDoblementeEnlazada {
     Nodo head; // Nodo cabeza de la lista
